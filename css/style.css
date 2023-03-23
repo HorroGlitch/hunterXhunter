@@ -11,9 +11,11 @@ body {
 }
 
 #hunterImg1{
-    width: 150px;
-    height: 90px;
+    width: 180px;
+    height: 110px;
     float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .items{
@@ -35,10 +37,16 @@ body {
 }
 
 main{
-    width: 750px;
+    width: 730px;
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: white;
     margin-left: 22%;
+    padding: 10px;
+}
+
+#hunterText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
