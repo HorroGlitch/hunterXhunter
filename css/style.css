@@ -1,4 +1,44 @@
-#hunterLogoImg{
+body {
+    width: 98vw;
+    height: 99vh;
+    background-image: url(../img/fond.png);
+}
+
+#hunterLogoImg {
     width: 150px;
     height: 80px;
+    margin-left: 50px;
+}
+
+#hunterImg1{
+    width: 150px;
+    height: 90px;
+    float: left;
+}
+
+.items{
+    display: inline;
+    margin-left: 90px;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+}
+
+#navbarHunter{
+    display: flex;
+    background-color: rgb(36, 0, 36);
+    width: 750px;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    margin-left: 22%;
+}
+
+main{
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    margin-left: 22%;
 }
