@@ -41,12 +41,49 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     background-color: white;
     margin-left: 22%;
     padding: 10px;
 }
 
-#hunterText{
+.hunterText{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+}
+
+.hunterTitle{
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#hunterImg2{
+    width: 180px;
+    height: 110px;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.readMore{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    background-color: rgb(36, 0, 36);
+    color: white;
+    transform: translate(600px, 10px);
+}
+
+#edenLogo{
+    width: 52px;
+    height: 22px;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+#edenTexte{
+    color: white;
+    margin-left: 46%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
 }
